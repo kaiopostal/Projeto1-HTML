@@ -1,0 +1,96 @@
+/* CSS RESET */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap')
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+#topo{
+  /* VW LARGURA DA TELA
+    VH ALTURA DA TELA */
+height: 20vh;
+background-color: #9FB8AD;
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom: 5px solid #383E56;
+margin-bottom: 20px;
+}
+
+#titulo{
+  color: #383E56;
+  font-family: 'Style Script', cursive;
+  font-size: 80px;
+}
+
+
+.box-dicas{
+  width: 70vw;
+
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #F4F9F9;
+}
+
+/* MUDAR A COR DO H3 EM BOX DICAS */
+.titulo-destaque h3{
+  color: #383E56;
+  font-weight:700;
+}
+
+.box-dicas h5{
+color: #383E56;
+font-weight: 450;
+}
+
+.p{
+color:  #61605e;
+font-weight: 400;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.box-dicas header{
+  margin-bottom: 10px;
+}
+
+.box-noticia{
+  width:23vw;
+  margin: 10px;
+  padding: 10px;
+
+  background-color: #F4F9F9;
+}
+
+.centralizado{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 71vw;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+
+}
+.secao-noticias{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.img-box-noticia{
+  width: 100%;
+  
+}
+.titulo box{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+

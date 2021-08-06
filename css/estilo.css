@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 *{
   margin: 0;
@@ -30,19 +30,19 @@ margin-bottom: 20px;
 
 .box-dicas{
   width: 70vw;
-
   margin-bottom: 10px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Bebas Neue', cursive;
+ 
   background-color: #F4F9F9;
 }
 
 /* MUDAR A COR DO H3 EM BOX DICAS */
-.titulo-destaque h3{
+.titulo-destaque{
   color: #383E56;
   font-weight:700;
+  font-family: 'Bebas Neue';
 }
 
 .box-dicas h5{
